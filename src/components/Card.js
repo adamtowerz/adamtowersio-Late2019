@@ -1,7 +1,7 @@
-import React, { useState } from "react"
-import classNames from "classnames"
-import Img from "gatsby-image"
-import ReactMarkdown from "react-markdown"
+import React, { useState } from "react";
+import classNames from "classnames";
+import Img from "gatsby-image";
+import ReactMarkdown from "react-markdown";
 
 // import "./card.css"
 
@@ -15,9 +15,9 @@ const Card = ({
   Link,
   tags,
   showLink = false,
-  linkLabel = "Learn More",
+  linkLabel = "Learn More"
 }) => {
-  let [active, setActive] = useState(false)
+  let [active, setActive] = useState(false);
   return (
     <button
       className={classNames("card", "card", { active: active })}
@@ -30,9 +30,7 @@ const Card = ({
           fluid={Image.localFiles[0].childImageSharp.fluid}
         />
         <div className="card__titlebox">
-          <a href={Link} className="card__title__link">
-            <h3 className="card__title">{title}</h3>
-          </a>
+          <h3 className="card__title">{title}</h3>
           {subtitle && <p className="card__subtitle">{subtitle}</p>}
           <p className="card__shortDesc">{Short_Description}</p>
         </div>
@@ -60,7 +58,7 @@ const Card = ({
         </>
       )}
     </button>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
