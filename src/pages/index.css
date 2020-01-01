@@ -1,0 +1,60 @@
+.center-hv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 10vw;
+  text-align: center;
+}
+
+#socials {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 0;
+}
+
+#socials > li > a > i {
+  color: var(--side-bar-text-color);
+  font-size: var(--large-text);
+  padding: 0 12px;
+  transition: 100ms color ease-in-out;
+}
+
+#socials > li > a:hover > i {
+  color: black;
+}
+
+#links {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#links > li {
+  font-size: var(--large-text);
+  color: white;
+  border-radius: 12px;
+  margin: 0 8px;
+  text-align: center;
+}
+
+#links > li > a {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  color: var(--side-bar-text-color);
+}
+
+#links > li:hover > a {
+  color: var(--primary-accent);
+}

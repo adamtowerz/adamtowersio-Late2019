@@ -1,0 +1,126 @@
+/*************************
+ *****   Layout CSS    ***
+ ************************/
+
+.projects__container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.list__title {
+  margin-top: 32px;
+  padding-left: 16px;
+}
+
+@media (max-aspect-ratio: 8/6) {
+  .projects__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*************************
+ *****   Cards CSS    ***
+ ************************/
+
+.card {
+  background-color: white;
+  display: block;
+  width: 40vw;
+  max-width: 600px;
+  text-align: left;
+  border: 2px solid #dadada;
+  border-radius: 8px;
+  margin: 16px;
+  padding: 16px;
+
+  transition: background-color 50ms ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #eaeaea;
+}
+
+.card__titleRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.card__Img {
+  margin: 4px;
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+}
+
+.card__titlebox {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card__title__link {
+  text-decoration: none;
+}
+
+.card__title__link:hover > h3 {
+  color: var(--primary);
+}
+
+.card__titlebox * {
+  margin: 0;
+}
+
+.card__subtitle {
+  font-weight: bold;
+}
+
+.card__tagList {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.card__tag {
+  padding: 4px 12px;
+  margin: 0 4px;
+  border: 2px solid #dadada;
+  background-color: #dadada;
+  border-radius: 16px;
+  font-size: var(--small-text: 1rem);
+}
+
+.card__longDesc {
+  margin-top: 16px;
+}
+
+.card__longDesc > ul {
+  margin-left: 16px;
+}
+
+.card__link {
+  padding: 8px 24px;
+  border: 2px solid #dadada;
+  border-radius: 16px;
+  font-weight: bold;
+  background-color: white;
+  text-decoration: none;
+  color: var(--dark-grey);
+}
+
+.card__link:hover {
+  color: var(--primary);
+}
+
+@media (max-aspect-ratio: 8/6) {
+  .card {
+    width: 80vw;
+  }
+}
