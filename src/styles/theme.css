@@ -17,6 +17,12 @@
   --small-text: 1rem;
 }
 
+@media (max-aspect-ratio: 8/6) {
+  :root {
+    font-size: 11px;
+  }
+}
+
 .green {
   color: var(--primary);
 }

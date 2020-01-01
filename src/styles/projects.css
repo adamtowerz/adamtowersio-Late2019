@@ -55,6 +55,7 @@
   width: 64px;
   height: 64px;
   border-radius: 8px;
+  flex-shrink: 0;
 }
 
 .card__titlebox {
@@ -113,6 +114,7 @@
   background-color: white;
   text-decoration: none;
   color: var(--dark-grey);
+  display: inline-block;
 }
 
 .card__link:hover {
@@ -121,6 +123,26 @@
 
 @media (max-aspect-ratio: 8/6) {
   .card {
-    width: 80vw;
+    width: 94vw;
+    margin: 16px 0;
+    /* padding: 4px; */
+  }
+
+  .card__titlebox {
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .list__title {
+    padding-left: 0;
+  }
+
+  .backbtn {
+    position: relative;
+    display: block;
+    margin: 0 16px;
+    margin-top: 16px;
   }
 }
