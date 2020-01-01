@@ -94,7 +94,7 @@
   border: 2px solid #dadada;
   background-color: #dadada;
   border-radius: 16px;
-  font-size: var(--small-text: 1rem);
+  font-size: var(--small-text);
 }
 
 .card__longDesc {
