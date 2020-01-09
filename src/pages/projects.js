@@ -1,12 +1,12 @@
-import React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
-import SEO from "../components/seo"
-import "../styles/fontawesome/css/fontawesome.min.css"
-import "../styles/fontawesome/css/solid.min.css"
-import "../styles/base.css"
-import "../styles/theme.css"
-import "../styles/projects.css"
-import Card from "../components/Card"
+import React from "react";
+import { useStaticQuery, graphql, Link } from "gatsby";
+import SEO from "../components/seo";
+import "../styles/fontawesome/css/fontawesome.min.css";
+import "../styles/fontawesome/css/solid.min.css";
+import "../styles/base.css";
+import "../styles/theme.css";
+import "../styles/projects.css";
+import Card from "../components/Card";
 
 const ProjectPage = () => {
   const data = useStaticQuery(graphql`
@@ -60,7 +60,7 @@ const ProjectPage = () => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <>
@@ -79,7 +79,7 @@ const ProjectPage = () => {
                 Project_Name: title,
                 Technologies: tags,
                 ...rest
-              } = o.node.data
+              } = o.node.data;
               return (
                 <Card
                   title={title}
@@ -88,7 +88,7 @@ const ProjectPage = () => {
                   linkLabel="Visit Project"
                   {...rest}
                 />
-              )
+              );
             })}
           </div>
         </div>
@@ -103,16 +103,16 @@ const ProjectPage = () => {
                 Role: subtitle,
                 Technologies: tags,
                 ...rest
-              } = o.node.data
+              } = o.node.data;
               return (
                 <Card title={title} subtitle={subtitle} tags={tags} {...rest} />
-              )
+              );
             })}
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default ProjectPage
+export default ProjectPage;

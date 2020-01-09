@@ -42,7 +42,7 @@
 }
 
 .card:hover {
-  background-color: #eaeaea;
+  border-color: #777;
 }
 
 .card__titleRow {
@@ -119,6 +119,7 @@
 
 .card__link:hover {
   color: var(--primary);
+  border-color: #777;
 }
 
 @media (max-aspect-ratio: 8/6) {
