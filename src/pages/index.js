@@ -12,7 +12,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="center-hv">
       <h1>
-        Hi, I'm <span className="green">Adam</span>
+        Hi, I'm <span className="color-primary">Adam</span>.
       </h1>
       <ul id="socials">
         <li>
@@ -21,7 +21,7 @@ const IndexPage = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-twitter-square"></i>
+            <i className="fab fa-twitter"></i>
           </a>
         </li>
         <li>
@@ -39,7 +39,7 @@ const IndexPage = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-github-square"></i>
+            <i className="fab fa-github"></i>
           </a>
         </li>
       </ul>

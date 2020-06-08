@@ -71,7 +71,7 @@ const ProjectPage = () => {
       <div className="projects__container">
         <div className="list">
           <h2 className="list__title">
-            <span className="green">Projects</span> I've Worked On
+            <span className="color-primary">Projects</span> I've Worked On
           </h2>
           <div className="list__contents">
             {data.prjcts.edges.map(o => {
@@ -94,7 +94,7 @@ const ProjectPage = () => {
         </div>
         <div className="list">
           <h2 className="list__title">
-            <span className="green">Places</span> I've Worked At
+            <span className="color-primary">Places</span> I've Worked At
           </h2>
           <div className="list__contents">
             {data.workexps.edges.map(o => {

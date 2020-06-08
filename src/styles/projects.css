@@ -2,7 +2,10 @@
  *****   Layout CSS    ***
  ************************/
 
+
 .projects__container {
+  --card-text: var(--dark-grey);
+
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -12,6 +15,8 @@
 .list__title {
   margin-top: 32px;
   padding-left: 16px;
+  font-family: var(--serif-font);
+  font-weight: bold;
 }
 
 @media (max-aspect-ratio: 8/6) {
@@ -43,6 +48,10 @@
 
 .card:hover {
   border-color: #777;
+}
+
+.card__title {
+  color: var(--dark-grey);
 }
 
 .card__titleRow {
