@@ -5,9 +5,9 @@
   --dark-grey: #3c3c3c;
   --light-grey: #d8d8d8;
 
-  --background-color: #F4EBE8;
-  --primary: #3993dd;
-  --primary-accent: #89BBFE;
+  --background-color: #FEFFD8;
+  --primary: #128cf7;
+  --primary-accent: #12f7cc;
 
   --text-color: var(--dark-grey);
   --primary-font: "Arvo", sans-serif;
@@ -26,7 +26,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color: #3c3c3c;
-    --text-color: #F4EBE8;
+    --text-color: #FEFFD8;
 
   }
 }
