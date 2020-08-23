@@ -1,0 +1,23 @@
+.popover {
+  background-color: var(--primary);
+  transition: background-color 50ms ease-in-out;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.popover:hover,
+.popover.active {
+  background-color: var(--primary-accent);
+}
+
+.popover:focus {
+  border: 2px solid var(--primary-accent);
+  outline: none;
+}
+
+.popover-container {
+  display: block;
+  padding: 0.5em;
+  margin: 0.5em;
+  border: 1px solid var(--primary-accent);
+}

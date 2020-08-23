@@ -1,15 +1,16 @@
-.center-hv {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  height: 100vh;
+.center-col {
+  max-width: 624px;
+  margin: 0 auto;
+  padding: 10vh 24px;
 }
 
 h1 {
-  font-size: 10vw;
-  text-align: center;
+  font-size: var(--large-text);
   font-family: var(--serif-font);
+}
+
+p {
+  line-height: 2em;
 }
 
 #socials {
@@ -18,6 +19,7 @@ h1 {
   flex-direction: row;
   justify-content: center;
   padding-left: 0;
+  margin-bottom: 5vh;
 }
 
 #socials > li > a > i {
