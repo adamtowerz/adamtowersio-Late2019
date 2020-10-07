@@ -71,14 +71,15 @@ p {
 }
 
 a {
-  color: var(--text-color);
-  text-decoration-line: underline;
-  text-decoration-thickness: 2px;
-  text-decoration-color: var(--primary);
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
-  text-decoration-color: var(--primary-accent);
+  text-decoration: solid;
+  text-decoration-color: var(--primary);
+  text-decoration-thickness: 2px;
 }
 
 ul {
