@@ -304,7 +304,7 @@ const IndexPage = () => (
       <p>
         I’m always happy to chat, feel free to email me at{" "}
         <a href="mailto:adam.towers77@gmail.com">adam.towers77@gmail.com</a>.
-        Tap a highlighted section to learn more.
+        Tap an underlined section to learn more.
       </p>
     </div>
     <Socials />
