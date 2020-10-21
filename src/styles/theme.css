@@ -30,9 +30,9 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color: #3c3c3c;
-    --text-color: #feffd8;
-    --primary: var(--dark-primary);
-    --primary-accent: var(--dark-primary-accent);
+    --text-color: white;
+    --primary: #3c3c3c;
+    --primary-accent: black;
   }
 }
 
@@ -71,7 +71,7 @@ p {
 }
 
 a {
-  color: var(--primary);
+  color: var(--text-color);
   text-decoration: none;
   font-weight: bold;
 }
