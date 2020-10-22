@@ -4,7 +4,7 @@ export default () => (
   <ul id="socials">
     <li>
       <a
-        href="https://twitter.com/realAdamTowers"
+        href="https://twitter.com/adamtowerz"
         target="_blank"
         rel="noopener noreferrer"
       >
