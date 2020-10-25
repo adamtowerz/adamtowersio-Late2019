@@ -22,7 +22,7 @@ export default () => (
     </li>
     <li>
       <a
-        href="https://github.com/Zarkoix"
+        href="https://github.com/adamtowerz"
         target="_blank"
         rel="noopener noreferrer"
       >
