@@ -59,15 +59,19 @@ main {
 
 .center-col {
   max-width: 624px;
-  margin: 0 auto;
-  padding: 10vh 24px;
+  margin: 48px auto;
+  padding: 48px 24px;
   position: relative;
   z-index: 1;
+
+  background-color: #fff3;
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
 }
 
 h1 {
   font-size: var(--large-text);
-  font-family: var(--serif-font);
+  font-family: var(--brand-font);
 }
 
 p {
@@ -106,7 +110,6 @@ p {
 
 #links > li {
   font-size: var(--large-text);
-  font-family: var(--serif-font);
   color: var(--text-color);
   border-radius: 12px;
   margin: 0 8px;

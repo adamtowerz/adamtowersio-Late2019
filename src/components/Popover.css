@@ -4,16 +4,18 @@
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-decoration-style: solid;
-  text-decoration-color: var(--primary-accent);
+  text-decoration-color: var(--text-color);
 }
 
 .popover:hover,
 .popover.active {
-  text-decoration-color: var(--text-color);
+  text-decoration: none;
+  background-color: var(--background-color);
 }
 
 .popover:focus {
   outline: none;
+  text-decoration-thickness: 4px;
 }
 
 .popover-container {
